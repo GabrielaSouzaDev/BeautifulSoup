@@ -16,9 +16,11 @@ produtos = site.find_all('div', class_='card')
 
 # Loop para percorrer os produtos
 for produto in produtos:
+
     nome = produto.find('div', class_='nome').text.strip()
     preco = produto.find('div', class_='preco').text.strip()
+
+    print('===============================')
+    print(f'Produto: {nome} \nPreço: {preco}')
+
     
-    print('=======================')
-    print(f'Produto: {nome}')
-    print(f'Preço: {preco}')
