@@ -1,4 +1,4 @@
-# 🕷️ WebScraper Monitor
+# 🕷️ Raspagem de Dados
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Selenium](https://img.shields.io/badge/Selenium-4.x-green?style=flat-square&logo=selenium)
@@ -114,7 +114,7 @@ Este projeto foi desenvolvido com foco em:
 ## 📂 Estrutura do Projeto
 
 ```
-WebScraperMonitor/
+raspagem-de-dados/
 │
 ├── beautifulSoup.py
 │
@@ -146,8 +146,8 @@ WebScraperMonitor/
 **1. Clone o repositório:**
 
 ```bash
-git clone https://github.com/GabrielaSouzaDev/WebScraperMonitor.git
-cd WebScraperMonitor
+git clone https://github.com/GabrielaSouzaDev/raspagem-de-dados.git
+cd raspagem-de-dados
 ```
 
 **2. Instale as bibliotecas necessárias**
